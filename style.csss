@@ -22,3 +22,29 @@ kartu profil {
   /* _ _ _ (kode dari slide sebelumnya) - - - */
   text-align: center; /* menengahkan semua teks di dalam kartu */
 }
+
+
+
+
+body {
+    background-color: #FFFFE0; /* warna kuning cerah */[cite: 2]
+    font-family: Arial, sans-serif; /* jenis huruf yang bersih dan mudah dibaca (menghapus koma berlebih) */[cite: 2]
+    color: #191970; /* warna teks utama (biru gelap) */[cite: 2]
+}
+
+/* Mengubah spasi menjadi selector class '.kartu-profil' dan menggabungkan aturan */
+.kartu-profil {
+    width: 300px;
+    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */[cite: 2]
+    padding: 20px;
+    background-color: white; /* Memperbaiki typo 'backround-color' */[cite: 2]
+    border-radius: 15px; /* Menambahkan titik koma yang kurang */[cite: 2]
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memperbaiki spasi rgba dan mengubah koma nilai desimal menjadi titik */[cite: 2]
+    text-align: center; /* Menengahkan semua teks di dalam kartu */[cite: 2]
+}
+
+/* Memperbaiki selector gambar di dalam kartu */
+.kartu-profil img {
+    width: 150px;
+    border-radius: 50%; /* Menggunakan 50% agar gambar persegi menjadi lingkaran sempurna */[cite: 2]
+}
