@@ -1,18 +1,4 @@
 
-
-
-kartu profil img (
-  width: 150px
-  border-radius: 50px /* trik untuk membuat gambar persegi menjadi lingkaran sempurna */
-}
-kartu profil {
-  /* _ _ _ (kode dari slide sebelumnya) - - - */
-  text-align: center; /* menengahkan semua teks di dalam kartu */
-}
-
-
-
-
 body {
     background-color: #FFFFE0; /* warna kuning cerah */[cite: 2]
     font-family: Arial, sans-serif; /* jenis huruf yang bersih dan mudah dibaca (menghapus koma berlebih) */[cite: 2]
